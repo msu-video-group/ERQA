@@ -139,7 +139,7 @@ class ERQA:
         fp = np.sum(edge) - tp
         fn = np.sum(false_negative)
 
-        if tp + fp == 0 or tp + fn == 0:
+        if tp == 0 or tp + fp == 0 or tp + fn == 0:
             f1 = 0
         else:
             prec = tp / (tp + fp)
