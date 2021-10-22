@@ -2,6 +2,8 @@
 
 ERQA - a full-reference quality metric designed to analyze how good image and video restoration methods (SR, deblurring, denoising, etc) are restoring real details.
 
+See our [paper](https://arxiv.org/abs/2110.09992) for details.
+
 It is part of [MSU Video Super Resolution Benchmark](https://videoprocessing.ai/benchmarks/video-super-resolution.html) project.
 
 
@@ -55,4 +57,13 @@ pip install -r requirements.txt
 
 ## Cite us
 
-⌛**Soon**⌛
+```
+@misc{kirillova2021erqa,
+      title={ERQA: Edge-Restoration Quality Assessment for Video Super-Resolution}, 
+      author={Anastasia Kirillova and Eugene Lyapustin and Anastasia Antsiferova and Dmitry Vatolin},
+      year={2021},
+      eprint={2110.09992},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+```
