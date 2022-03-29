@@ -58,10 +58,15 @@ pip install -r requirements.txt
 ## Cite us
 
 ```
-@article{kirillova2021erqa,
-  title={ERQA: Edge-Restoration Quality Assessment for Video Super-Resolution},
-  author={Kirillova, Anastasia and Lyapustin, Eugene and Antsiferova, Anastasia and Vatolin, Dmitry},
-  journal={arXiv preprint arXiv:2110.09992},
-  year={2021}
+@conference{kirillova2022erqa,
+	title        = {ERQA: Edge-restoration Quality Assessment for Video Super-Resolution},
+	author       = {Anastasia Kirillova. and Eugene Lyapustin. and Anastasia Antsiferova. and Dmitry Vatolin.},
+	year         = 2022,
+	booktitle    = {Proceedings of the 17th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 4: VISAPP,},
+	publisher    = {SciTePress},
+	pages        = {315--322},
+	doi          = {10.5220/0010780900003124},
+	isbn         = {978-989-758-555-5},
+	organization = {INSTICC}
 }
 ```
